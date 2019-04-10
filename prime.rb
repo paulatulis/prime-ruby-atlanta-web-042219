@@ -1,5 +1,5 @@
-def prime?(array)
-   false if !x.integer? || x < 2 
+def prime?(number)
+   false if !number.integer? || number < 2 
      
     elsif x == 2
     true 
