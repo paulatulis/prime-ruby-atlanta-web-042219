@@ -7,4 +7,5 @@ def prime?(array)
   else false 
 end
 end 
+end 
 
