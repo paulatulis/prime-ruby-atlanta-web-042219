@@ -1,9 +1,10 @@
 def prime?(array)
-  array.each do |x|
-    if !x.integer? || x < 2 
+  if !x.integer? || x < 2 
       false 
-    else x == 2 || 
+    elsif x == 2
     true 
+  else array.each do |x|
+    
 end
 end 
 end 
