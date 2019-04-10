@@ -6,5 +6,6 @@ def prime?(array)
   else (2..array-1).each {|x| false if array % x == 0}
    true 
 end
+end 
 
 
