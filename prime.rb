@@ -5,5 +5,6 @@ def prime?(array)
     elsif x == 2 
     true 
   else false 
+end
 end 
 
