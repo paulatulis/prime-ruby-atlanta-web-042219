@@ -3,7 +3,7 @@ def prime?(array)
       false 
     elsif x == 2
     true 
-  else (2..array-1).each {|x| false if array%x
+  else (2..array-1).each {|x| false if array % x == 0}
     
 end
 end 
